@@ -25,20 +25,25 @@
         </Grid.RowDefinitions>
         <Label x:Name="resultLabel" Content="0"
                HorizontalAlignment="Right"
-               VerticalAlignment="Bottom"
-               FontSize="60" Grid.Column="3" Height="90" Width="42"/>
+               VerticalAlignment="Bottom"             
+               Grid.Column="3" 
+               Height="90" 
+               Width="42"/>
         <Button x:Name="acButton" 
                 Content="AC"
+                Foreground="Black"
                 Margin="5,5,4,5"
                 Grid.Row="1"
                 Grid.Column="0"/>
         <Button x:Name="negativeButton" 
                 Content="+/-"
+                Foreground="Black"
                 Margin="6,5,5,5"
                 Grid.Row="1"
                 Grid.Column="1"/>
         <Button x:Name="percentageButton" 
                 Content="%"
+                Foreground="Black"
                 Margin="5,5,6,5"
                 Grid.Row="1"
                 Grid.Column="2"/>
@@ -46,7 +51,6 @@
                 Content="/"
                 Click="OperationButton_Click"
                 Background="{StaticResource operatorsColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="4,5,5,5"
                 Grid.Row="1"
                 Grid.Column="3"/>
@@ -54,7 +58,6 @@
                 Content="7"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,4,5"
                 Grid.Row="2"
                 Grid.Column="0"/>
@@ -62,7 +65,6 @@
                 Content="8"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="6,5,5,5"
                 Grid.Row="2"
                 Grid.Column="1"/>
@@ -70,7 +72,6 @@
                 Content="9"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,6,5"
                 Grid.Row="2"
                 Grid.Column="2"/>
@@ -78,7 +79,6 @@
                 Content="*"
                 Click="OperationButton_Click"
                 Background="{StaticResource operatorsColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="4,5,5,5"
                 Grid.Row="2"
                 Grid.Column="3"/>
@@ -86,7 +86,6 @@
                 Content="4"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,4,5"
                 Grid.Row="3"
                 Grid.Column="0"/>
@@ -94,7 +93,6 @@
                 Content="5"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="6,5,5,5"
                 Grid.Row="3"
                 Grid.Column="1"/>
@@ -102,7 +100,6 @@
                 Content="6"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,6,5"
                 Grid.Row="3"
                 Grid.Column="2"/>
@@ -110,7 +107,6 @@
                 Content="-"
                 Click="OperationButton_Click"
                 Background="{StaticResource operatorsColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="4,5,5,5"
                 Grid.Row="3"
                 Grid.Column="3"/>
@@ -118,7 +114,6 @@
                 Content="1"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,4,4"
                 Grid.Row="4"
                 Grid.Column="0"/>
@@ -126,7 +121,6 @@
                 Content="2"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="6,5,5,4"
                 Grid.Row="4"
                 Grid.Column="1"/>
@@ -134,7 +128,6 @@
                 Content="3"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,6,4"
                 Grid.Row="4"
                 Grid.Column="2"/>
@@ -142,7 +135,6 @@
                 Content="+"
                 Click="OperationButton_Click"
                 Background="{StaticResource operatorsColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="4,5,5,4"
                 Grid.Row="4"
                 Grid.Column="3"/>
@@ -150,7 +142,6 @@
                 Content="0"
                 Click="NumberButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,5,5"
                 Grid.Row="6"
                 Grid.ColumnSpan="2"/>
@@ -158,14 +149,12 @@
                 Content="."
                 Click="decimalButton_Click"
                 Background="{StaticResource numbersColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="5,5,6,5"
                 Grid.Row="6"
                 Grid.Column="2"/>
         <Button x:Name="equalsButton"
                 Content="="
                 Background="{StaticResource operatorsColor}"
-                Foreground="{StaticResource foregroundColor}"
                 Margin="4,5,5,5"
                 Grid.Row="6"
                 Grid.Column="3"/>
